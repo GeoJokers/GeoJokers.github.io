@@ -6,7 +6,15 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+
+        <a
+          href="https://www.geojokers.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={logo} className="App-logo" alt="logo" />
+        </a>
+
         <a
           className="App-link"
           href="mailto:info@geojokers.com"
@@ -15,6 +23,7 @@ function App() {
         >
           info@geojokers.com
         </a>
+
       </header>
     </div>
   );
