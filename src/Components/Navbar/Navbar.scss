@@ -3,7 +3,13 @@
     position: fixed;
     width: 100%;
     font-size: calc(9px + 2vmin);
-    font-weight: bold;
+    // font-weight: bold;
+}
+
+#logo-text {
+    font-family: Despairs;
+    font-size: 2rem;
+    color: rgb(67, 67, 67);
 }
 
 li {

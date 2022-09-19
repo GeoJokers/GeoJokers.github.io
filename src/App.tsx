@@ -11,7 +11,27 @@ function App() {
 
       <Background />
       <Navbar />
-      <Header />
+
+      <section id="home">
+        <Header />
+      </section>
+
+      <section id="about">
+        <h2>about</h2>
+      </section>
+
+      <section id="blog">
+        <h2>blog</h2>
+      </section>
+
+      <section id="media">
+        <h2>media</h2>
+      </section>
+
+      <section id="contact">
+        <h2>contact</h2>
+      </section>
+
       <Footer />
 
     </div>

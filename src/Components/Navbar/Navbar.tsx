@@ -1,3 +1,5 @@
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 import './Navbar.scss';
 
 function Navbar() {
@@ -5,19 +7,22 @@ function Navbar() {
     <div className="App-navbar">
       <ul>
         <li>
-          <a href="/#home">home</a>
+          <a href="/" id="logo-text">GeoJokers</a>
         </li>
         <li>
-          <a href="/#about">about</a>
+          <AnchorLink href="#home" offset='150'>home</AnchorLink>
         </li>
         <li>
-          <a href="/#blog">blog</a>
+          <AnchorLink href="#about" offset='150'>about</AnchorLink>
         </li>
         <li>
-          <a href="/#media">media</a>
+          <AnchorLink href="#blog" offset='150'>blog</AnchorLink>
         </li>
         <li>
-          <a href="/#contact">contact</a>
+          <AnchorLink href="#media" offset='150'>media</AnchorLink>
+        </li>
+        <li>
+          <AnchorLink href="#contact" offset='150'>contact</AnchorLink>
         </li>
       </ul>
     </div>
