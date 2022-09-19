@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './App.css';
+import './App.scss';
 
 import background from './background.png';
 import logo from './logo.png';
@@ -40,6 +40,11 @@ function App() {
         </a>
 
       </header>
+      <footer>
+        <p>
+          © 2022 GeoJokers
+        </p>
+      </footer>
     </div>
   );
 }
