@@ -1,9 +1,14 @@
-.App-background {
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    opacity: 0.6;
-    z-index: -1;
+#Background {
+    // Parent selector: Here exclusive scss for current component
+
+    img {
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        opacity: 0.6;
+        z-index: -1;
+    }
 }
+

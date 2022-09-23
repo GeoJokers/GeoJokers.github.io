@@ -2,7 +2,7 @@ import './Footer.scss';
 
 function Footer() {
   return (
-    <div className="App-footer">
+    <div id="Footer">
       <p>© 2022 GeoJokers</p>
     </div>
   );

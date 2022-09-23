@@ -4,7 +4,7 @@ import logo from './logo.png';
 
 function Header() {
   return (
-    <header className="App-header">
+    <div id="Header">
 
       <a
         href="/"
@@ -32,7 +32,7 @@ function Header() {
         info@geojokers.com
       </a>
 
-    </header>
+    </div>
   );
 }
 

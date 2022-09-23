@@ -1,15 +1,31 @@
-.App {
+@import "scss/colors";
+
+#App {
+  // Parent selector: Here exclusive scss for current component
+  
   text-align: center;
-}
 
-.App-link {
-  color: #7c7c7c;
-}
-
-section {
-  height: 100vh;
-}
-
-h2 {
-  font-family: Despairs;
+  .App-link {
+    color: $link-color;
+  }
+  
+  section {
+    height: 100vh;
+  }
+  
+  #about {
+    background-color: $secondary-color;
+  }
+  
+  #media {
+    color: $secondary-color;
+    background-color: $primary-color;
+  }
+  
+  h2 {
+    padding-top: 5%;
+    font-family: Despairs;
+    font-size: 2rem;
+    color: $primary-color;
+  }
 }

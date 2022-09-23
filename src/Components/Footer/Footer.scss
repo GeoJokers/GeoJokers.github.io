@@ -1,11 +1,18 @@
-.App-footer {
+@import "../../scss/colors";
+
+#Footer {
+    // Parent selector: Here exclusive scss for current component
+
     bottom: 0;
     width: 100%;
     height: 5rem;
-    background-color: #282c34;
+    background-color: $frame-color;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+
+    p {
+        font-size: calc(10px + 2vmin);
+        color: white;
+    }
 }

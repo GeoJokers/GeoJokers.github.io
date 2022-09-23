@@ -1,23 +1,58 @@
-.App-navbar {
+@import "../../scss/colors";
+
+#Navbar-big {
+    // Parent selector: Here exclusive scss for current component
+
     padding: 3% 0;
     position: fixed;
     width: 100%;
-    font-size: calc(9px + 2vmin);
-    // font-weight: bold;
+    // background-color: $frame-color;
+    transition: ease-in 0.5s;
+    
+    #logo-text {
+        font-family: Despairs;
+        font-size: calc(9px + 2vmin);
+        color: $frame-color;
+        transition: ease-in 0.5s;
+    }
+    
+    li {
+        display: inline-block;
+        margin: 0 2%;
+    }
+    
+    a {
+        font-size: calc(9px + 2vmin);
+        color: $primary-color;
+        text-decoration: none;
+    }
 }
 
-#logo-text {
-    font-family: Despairs;
-    font-size: 2rem;
-    color: rgb(67, 67, 67);
+#Navbar-small {
+    // Parent selector: Here exclusive scss for current component
+    
+    padding: 0.5% 0;
+    position: fixed;
+    width: 100%;
+    background-color: $frame-color;
+    transition: ease-in 0.5s;
+    
+    #logo-text {
+        font-family: Despairs;
+        font-size: 9px;
+        color: $secondary-color;
+        transition: ease-in 0.5s;
+    }
+    
+    li {
+        display: inline-block;
+        margin: 0 2%;
+    }
+    
+    a {
+        font-size: calc(9px + 2vmin);
+        color: $primary-color;
+        text-decoration: none;
+    }
 }
 
-li {
-    display: inline-block;
-    margin: 0 2%;
-}
-
-a {
-    color: #00b690;
-    text-decoration: none;
-}

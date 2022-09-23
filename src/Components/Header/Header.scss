@@ -1,8 +1,6 @@
-.App-logo {
-    height: 40vmin;
-}
+#Header {
+    // Parent selector: Here exclusive scss for current component
 
-.App-header {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -10,4 +8,8 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
+
+    .App-logo {
+        height: 40vmin;
+    }
 }

@@ -4,7 +4,9 @@ import background from './background.png';
 
 function Background() {
   return (
-    <img src={background} className="App-background" alt="background" />
+    <div id="Background">
+      <img src={background} alt="background" />
+    </div>
   );
 }
 
