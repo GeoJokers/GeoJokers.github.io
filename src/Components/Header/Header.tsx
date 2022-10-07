@@ -14,7 +14,7 @@ function Header() {
         <img src={logo} className="App-logo" alt="logo" />
       </a>
 
-      <a
+      {/* <a
         className="App-link"
         href="/"
         target="_blank"
@@ -30,7 +30,10 @@ function Header() {
         rel="noopener noreferrer"
       >
         info@geojokers.com
-      </a>
+      </a> */}
+
+      <p>„Everything is related to everything else, but near things are more related than distant things.“</p>
+      <p className='author'>- Waldo Tobler (erstes geographisches Gesetz)</p>
 
     </div>
   );

@@ -22,7 +22,9 @@
     }
     
     a {
+        font-family: Despairs;
         font-size: calc(9px + 2vmin);
+        font-weight: bold;
         color: $primary-color;
         text-decoration: none;
     }
@@ -39,7 +41,7 @@
     
     #logo-text {
         font-family: Despairs;
-        font-size: 9px;
+        font-size: calc(6px + 2vmin);
         color: $secondary-color;
         transition: ease-in 0.5s;
     }
@@ -50,7 +52,8 @@
     }
     
     a {
-        font-size: calc(9px + 2vmin);
+        font-family: Despairs;
+        font-size: calc(6px + 2vmin);
         color: $primary-color;
         text-decoration: none;
     }

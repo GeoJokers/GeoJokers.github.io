@@ -1,3 +1,5 @@
+@import "../../scss/colors";
+
 #Header {
     // Parent selector: Here exclusive scss for current component
 
@@ -11,5 +13,16 @@
 
     .App-logo {
         height: 40vmin;
+        margin-bottom: 30px;
+    }
+
+    p {
+        margin-top: 30px;
+        color: $primary-color;
+        font-style: italic;
+    }
+
+    .author {
+        color: $link-color;
     }
 }
