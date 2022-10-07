@@ -1,0 +1,11 @@
+@import "../../scss/colors";
+
+#LanguageSwitcher {
+    // Parent selector: Here exclusive scss for current component
+
+    button {
+        height: 25px;
+        width: 60px;
+        margin: 0px 5px;
+    }
+}

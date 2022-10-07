@@ -1,3 +1,5 @@
+import { Trans } from 'react-i18next';
+
 import './Header.scss';
 
 import logo from './logo.png';
@@ -13,27 +15,9 @@ function Header() {
       >
         <img src={logo} className="App-logo" alt="logo" />
       </a>
-
-      {/* <a
-        className="App-link"
-        href="/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        www.geojokers.com
-      </a>
-
-      <a
-        className="App-link"
-        href="mailto:info@geojokers.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        info@geojokers.com
-      </a> */}
-
-      <p>„Everything is related to everything else, but near things are more related than distant things.“</p>
-      <p className='author'>- Waldo Tobler (erstes geographisches Gesetz)</p>
+      
+      <p>"<Trans i18nKey="first-law" />"</p>
+      <p className="author"><Trans i18nKey="first-law-author" /></p>
 
     </div>
   );

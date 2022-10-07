@@ -1,3 +1,5 @@
+import { Trans } from 'react-i18next';
+
 import './App.scss';
 
 import Background from './Components/Background';
@@ -18,19 +20,19 @@ function App() {
       </section>
 
       <section id="about">
-        <h2>about</h2>
+        <h2><Trans i18nKey="about" /></h2>
       </section>
 
       <section id="blog">
-        <h2>blog</h2>
+        <h2><Trans i18nKey="blog" /></h2>
       </section>
 
       <section id="media">
-        <h2>media</h2>
+        <h2><Trans i18nKey="media" /></h2>
       </section>
 
       <section id="contact">
-        <h2>contact</h2>
+        <h2><Trans i18nKey="contact" /></h2>
       </section>
 
       <Footer />
