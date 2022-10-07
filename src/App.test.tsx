@@ -1,9 +1,12 @@
-import React from 'react';
 import { render, screen } from '@testing-library/react';
+import i18next from 'i18next';
+
 import App from './App';
 
-test('renders www.geojokers.com link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/www.geojokers.com/i);
-  expect(linkElement).toBeInTheDocument();
+test('renders geojokers header link', () => {
+  i18next.on("languageChanged", () => {
+    render(<App />);
+    const linkElement = screen.getByText(/geo jokers/i);
+    expect(linkElement).toBeInTheDocument();
+  });
 });
