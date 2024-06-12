@@ -5,6 +5,7 @@ import './App.scss';
 import Background from './Components/Background';
 import Navbar from './Components/Navbar';
 import Header from './Components/Header';
+import Blog from './Components/Blog';
 import Footer from './Components/Footer';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
 
       <section id="blog">
         <h2><Trans i18nKey="blog" /></h2>
+        <Blog />
       </section>
 
       <section id="media">
